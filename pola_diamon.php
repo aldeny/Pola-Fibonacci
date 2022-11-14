@@ -4,7 +4,6 @@ $rows = 5;
 
 for ($i = 1; $i <= $rows; $i++)
   {
-
     for ($j= 5; $j > $i; $j--)
     {
       echo "&nbsp;&nbsp;";
@@ -22,7 +21,6 @@ for ($i = 1; $i <= $rows; $i++)
       echo $m;
     }
   }
-
     echo "<br>";
   } 
 
@@ -49,7 +47,3 @@ for ($i = 1; $i <= $rows; $i++)
 
     echo "<br>";
   }
-
-
-
-?>
